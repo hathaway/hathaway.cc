@@ -13,15 +13,15 @@ body {
   font-kerning: normal;
 }
 
-header.main {
-  margin-top: 0.5em;
-}
+// header.main {
+//   margin-top: 0.5em;
+// }
 
 .ui.text.container {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
 }
 
-.main.menu .ui.text.container {
+.main.menu .ui.text.container, footer.main .ui.text.container {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,6 +29,10 @@ body.home {
   main.ui.text.container {
     font-size: 1.5rem;
   }
+}
+
+main {
+  margin: 1em;
 }
 
 .main.menu {
@@ -71,10 +75,10 @@ body.home {
   }
 }
 
-.ui.footer.segment {
-    margin: 4em 0em 0em;
-    padding: 3em 0em;
-  }
+// .ui.footer.segment {
+//     margin: 4em 0em 0em;
+//     padding: 3em 0em;
+//   }
 
 
 /**
