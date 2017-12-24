@@ -2,7 +2,7 @@
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  // font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -17,18 +17,22 @@ header.main {
   margin-top: 0.5em;
 }
 
-.ui.text.container {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-}
-
-.main.menu .ui.text.container, footer.main .ui.text.container {
-  font-family: 'Montserrat', sans-serif;
-}
+// .ui.text.container, .ui.items > .item > .content > .header {
+//   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+// }
+//
+// .main.menu .ui.text.container, footer.main .ui.text.container, .breadcrumb {
+//   font-family: 'Montserrat', sans-serif;
+// }
 
 body.home {
   main.ui.text.container {
     font-size: 1.5rem;
   }
+}
+
+header.post {
+  margin: 1.5em 0;
 }
 
 main {
@@ -65,7 +69,6 @@ main {
 }
 
 .main.menu.fixed {
-  // background-color: #FFFFFF;
   border: 1px solid #DDD;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   margin:0;
