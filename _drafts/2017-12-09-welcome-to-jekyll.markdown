@@ -1,28 +1,9 @@
-# hathaway.cc
-
-# How to deploy to S3
-
-From the root of this project, run the following commands.
-
-To build the lates version of the site:
-
-`jekyll build`
-
-To sync those new changes with the S3 bucket:
-
-`aws s3 sync _site s3://hathaway.cc --profile hathaway`
-
-That command will sync and changed files with the S3 bucket. There is a CDN setup
-for mailprotector.com so changes will show up after the cache has refreshed.
-
-To view the changes directly on S3 and bypass the CDN cache, go to:
-
-http://hathaway.cc.s3-website.us-east-2.amazonaws.com/
-
-
-
-Markdown example
-
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2017-12-09 23:04:29 -0500
+categories: jekyll update
+---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
