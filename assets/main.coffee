@@ -4,8 +4,8 @@
 $(document).ready ->
 
   # fix main menu to page on passing
-  # $('header .main.menu').visibility
-  #   type: 'fixed'
+  $('header .main.menu').visibility
+    type: 'fixed'
 
   # fix menu when passed
   # $('header .main.menu').visibility

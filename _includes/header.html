@@ -4,9 +4,7 @@
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
       <a class="header item" href="{{ "/" | relative_url }}">
-        <img class="ui tiny circular image logo" src="{{ "/assets/images/profile.jpg" | relative_url }}" alt="{{ site.title | escape }}">
-        <!-- <i class="fal fa-terminal"></i> -->
-        <!-- {{ site.title | escape }} -->
+        <img class="ui tiny circular image brand" src="{{ "/assets/images/profile.jpg" | relative_url }}" alt="{{ site.title | escape }}">
       </a>
 
       <div class="right menu">

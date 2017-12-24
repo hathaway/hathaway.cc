@@ -13,9 +13,9 @@ body {
   font-kerning: normal;
 }
 
-// header.main {
-//   margin-top: 0.5em;
-// }
+header.main {
+  margin-top: 0.5em;
+}
 
 .ui.text.container {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
@@ -54,13 +54,13 @@ main {
     text-decoration:underline;
   }
 
-  img.logo {
+  img.brand {
     transition:
       width 0.5s ease
     ;
   }
 }
-.main.menu .item img.logo {
+.main.menu .item img.brand {
   margin-right: 1.5em;
 }
 
@@ -70,8 +70,24 @@ main {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   margin:0;
 
-  img.logo {
+  img.brand {
     width: 35px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+
+  header.main {
+
+    .ui.menu .item {
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
+  }
+
+  .main.menu .item img.brand {
+    margin-right: 0.5em;
+    width: 50px;
   }
 }
 
