@@ -25,7 +25,7 @@ $(document).ready ->
     transition: 'vertical flip in'
     duration: 500
 
-  $('body.articles .items .item').on 'click', (e) ->
-    e.preventDefault()
-    # debugger
-    window.location.href = $(this).find('a').attr('href')
+  # $('body.articles .items .item').on 'click', (e) ->
+  #   e.preventDefault()
+  #   # debugger
+  #   window.location.href = $(this).find('a').attr('href')

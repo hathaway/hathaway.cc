@@ -9,7 +9,7 @@ categories: email encryption security
 Email is a communication medium that is used by nearly everyone on the Internet. It’s one of the few protocols so widely used, second only to maybe HTTP. That is the power of email. Everyone has it and uses it.
 
 But the security of email is a topic that is often misunderstood. This is largely because **there is no single answer to the question, "how secure is an email message?"** As a general rule of thumb, by default it should be treated as a very insecure medium of communication. There are ways to secure your email but let’s start out with a discussion of the different pieces at play.
-
+<!--more-->
 ## How secure is the email message content?
 
 When discussing the security of an email message, you need to break it up into two pieces. First comes the content of the email message itself.

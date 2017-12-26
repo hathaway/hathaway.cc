@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="ui breadcrumb">
-  <a class="section">Home</a>
+  <a class="section" href="{{ "/" | relative_url }}">Home</a>
   <div class="divider"> / </div>
-  <a class="section">Articles</a>
+  <a class="section" href="{% link articles.md %}">Articles</a>
   <div class="divider"> / </div>
   <div class="section">{{ page.date | date: "%Y" }}</div>
   <div class="divider"> / </div>
@@ -16,8 +16,9 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post">
-    <h1 class="ui header" itemprop="name headline">{{ page.title | escape }}
+  <header class="post header">
+    <h1 class="ui header" itemprop="name headline">
+      {{ page.title | escape }}
       <div class="sub header">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
@@ -27,7 +28,7 @@ layout: default
     </h1>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="post content" itemprop="articleBody">
     {{ content }}
   </div>
 

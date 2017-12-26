@@ -5,4 +5,4 @@ permalink: /articles/
 main_menu: true
 ---
 
-Occasionaly, but rarely, I'll write an article here.
+I don't write often. But when I do, I write here.
