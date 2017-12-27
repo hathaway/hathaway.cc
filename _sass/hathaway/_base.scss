@@ -39,7 +39,11 @@ main {
   margin: 1em;
 }
 
-.main.menu {
+.ui.secondary.pointing.menu {
+  border-bottom: 0;
+}
+
+.main.secondary.pointing.menu {
   background: $background-color;
   border-radius: 0;
   border: none;
@@ -49,14 +53,6 @@ main {
     padding 0.5s ease,
     margin 0.5s ease
   ;
-
-  .header.item:hover, .page.item:hover {
-    background:none;
-  }
-
-  .right.menu.item:hover {
-    text-decoration:underline;
-  }
 
   img.brand {
     transition:
@@ -68,7 +64,7 @@ main {
   margin-right: 1.5em;
 }
 
-.main.menu.fixed {
+.main.secondary.pointing.menu.fixed {
   border: 1px solid #DDD;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   margin:0;
