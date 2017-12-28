@@ -13,9 +13,7 @@ I launched my second company and first [SaaS](https://en.wikipedia.org/wiki/Soft
 
 In 2008, I invested in and joined [Mailprotector][mailprotector] as the Director of Development. Shortly after that I became the CTO and have enjoyed serving in that role ever since. We've done a lot over the last 10 years. Read more about that here.
 
-In addition to building software, I like to build (and take apart) pretty much anything else. Most of the time this is in the form of LEGOs with my 3 boys.
-
-In addition to building software, I like to stay active. Back in 2012 I started running obstacle course races. My first was a Tough Mudder and immediately became hooked. Since then I have run xxx races totaling xxx miles. Spartan, Tough Mudder, Goruck, Superhero Scramble You can see the full list here. My goal is to continue running at least one race every year until my boys are old enough to run them with me. This year my oldest two ran their first Spartan Race so they are getting close.
+In addition to building software, I like to stay active. Back in 2012 I started running obstacle course races. My first was a Tough Mudder in October 2012 and I immediately became hooked. Since then I have run xxx races totaling xxx miles. Spartan, Tough Mudder, GORUCK Nasty, Superhero Scramble. You can see the full list here. My goal is to continue running at least one race every year until my boys are old enough to run them with me. This year my oldest two ran their first Spartan Race so they are getting close.
 
 [uc]: http://ceas.uc.edu
 [mailprotector]: https://mailprotector.com

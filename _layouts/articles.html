@@ -2,40 +2,36 @@
 layout: default
 ---
 
-<div class="home">
+<h1>Articles</h1>
 
-  <h1 class="page-heading">Articles</h1>
+{{ content }}
 
-  {{ content }}
-
-  <div class="ui divided items">
-    {% for post in site.posts %}
-    {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-    <div class="item">
-      <div class="content">
-        <a class="header" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        <div class="meta">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
-        </div>
-        <div class="description">
-          <p>{{ post.excerpt }}</p>
-        </div>
-        {% capture content_words %}
-          {{ post.content | number_of_words }}
-        {% endcapture %}
-        {% capture excerpt_words %}
-          {{ post.excerpt | number_of_words }}
-        {% endcapture %}
-        {% if excerpt_words != content_words %}
-        <div class="extra">
-          <p><a class="" href="{{ post.url }}">Read more &hellip;</a></p>
-        </div>
-        {% endif %}
+<div class="ui divided items">
+  {% for post in site.posts %}
+  {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+  <div class="item">
+    <div class="content">
+      <a class="header" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      <div class="meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
       </div>
+      <div class="description">
+        <p>{{ post.excerpt }}</p>
+      </div>
+      {% capture content_words %}
+        {{ post.content | number_of_words }}
+      {% endcapture %}
+      {% capture excerpt_words %}
+        {{ post.excerpt | number_of_words }}
+      {% endcapture %}
+      {% if excerpt_words != content_words %}
+      <div class="extra">
+        <p><a class="" href="{{ post.url }}">Read more &hellip;</a></p>
+      </div>
+      {% endif %}
     </div>
-    {% endfor %}
   </div>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+  {% endfor %}
 </div>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>

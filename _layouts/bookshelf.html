@@ -2,4 +2,47 @@
 layout: default
 ---
 
-  {{ content }}
+<h1>Bookshelf</h1>
+
+{{ content }}
+
+<div class="ui divided items books">
+  {% assign books = site.books | sort: 'title' %}
+  {% for book in books %}
+  {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+  <div class="item">
+    <div class="image">
+      <a href="http://www.amazon.com/dp/{{ book.amazon.isbn }}/ref=nosim?tag=hathaway04-20/">
+        <img src="http://covers.openlibrary.org/b/isbn/{{ book.cover.isbn }}-M.jpg" />
+      </a>
+    </div>
+    <div class="content">
+      <a class="header" href="http://www.amazon.com/dp/{{ book.amazon.isbn }}/ref=nosim?tag=hathaway04-20/">{{ book.title | escape }}</a>
+      <div class="meta">
+        <div class="author">
+          {% if book.author %}
+          By <a href="https://en.wikipedia.org/wiki/{{ book.author.name | replace: ' ', '_' }}">{{ book.author.name }}</a>
+          {% endif %}
+        </div>
+        <div class="rating">
+          {% for r in (1..5) %}
+          {% assign r_half = r | plus: -0.5 %}
+          {% if r <= book.rating %}
+          <i class="fas fa-star"></i>
+          {% elsif r_half == book.rating %}
+          <i class="fas fa-star-half"></i>
+          {% else %}
+          <i class="fal fa-star"></i>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="description">
+        <p>{{ book.description }}</p>
+      </div>
+      <div class="extra">
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

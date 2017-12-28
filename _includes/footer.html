@@ -14,7 +14,7 @@
           <div class="ui horizontal link list">
             {% if site.twitter_username %}
             <a href="https://twitter.com/{{ site.twitter_username }}" class="item" target="_blank">
-              <i class="fab fa-twitter-square fa-2x"></i>
+              <i class="fab fa-twitter fa-2x"></i>
             </a>
             {% endif %}
             {% if site.instagram_username %}
@@ -29,12 +29,17 @@
             {% endif %}
             {% if site.github_username %}
             <a href="https://github.com/{{ site.github_username }}" class="item">
-              <i class="fab fa-github-square fa-2x"></i>
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            {% endif %}
+            {% if site.keybase_username %}
+            <a href="https://keybase.io/{{ site.keybase_username}}" class="item">
+              <i class="fal fa-key fa-2x"></i>
             </a>
             {% endif %}
             {% if site.email %}
             <a href="mailto:ben@hathaway.cc" class="item">
-              <i class="fal fa-envelope-square fa-2x"></i>
+              <i class="fal fa-envelope fa-2x"></i>
             </a>
             {% endif %}
           </div>

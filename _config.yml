@@ -23,6 +23,7 @@ twitter_username: hathaway
 github_username:  hathaway
 linkedin_username:  ben-hathaway-62587b9b
 instagram_username:  _hathaway_
+keybase_username:  hathaway
 
 # Build settings
 markdown: kramdown
@@ -34,6 +35,12 @@ plugins:
 permalink: /:year/:month/:title
 date_format: "%A, %-d %B %Y"
 excerpt_separator: "<!--more-->"
+
+collections:
+  races:
+    output: true
+    permalink: /:collection/:name
+  books:
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

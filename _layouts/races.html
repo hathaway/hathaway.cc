@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>Obstacle Course Races</h1>
+
+{{ content }}
+
+<div class="ui divided items">
+  {% assign races = site.races | sort: 'date' | reverse %}
+  {% for race in races %}
+  {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+  <div class="item">
+    <div class="content">
+      <a class="header" href="{{ race.url | relative_url }}">{{ race.title | escape }}</a>
+      <div class="meta">
+        <time datetime="{{ race.date | date_to_xmlschema }}">{{ race.date | date: date_format }}</time>
+        <div>{{ race.location.description }}</div>
+        <div>{{ race.distance.description }}</div>
+      </div>
+      <div class="description">
+        <p>{{ race.description }}</p>
+      </div>
+      <div class="extra">
+        <a href="https://darksky.net/details/{{ race.location.latitude }},{{ race.location.longitude }}/{{ race.date | date: '%Y-%m-%d' }}/"><i class="fal fa-cloud"></i></a>
+        <a href="http://www.google.com/maps/place/{{ race.location.latitude }},{{ race.location.longitude }}"><i class="fal fa-map"></i></a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
