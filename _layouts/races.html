@@ -12,7 +12,8 @@ layout: default
   {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
   <div class="item">
     <div class="content">
-      <a class="header" href="{{ race.url | relative_url }}">{{ race.title | escape }}</a>
+      <!-- <a class="header" href="{{ race.url | relative_url }}">{{ race.title | escape }}</a> -->
+      <div class="header">{{ race.title | escape }}</div>
       <div class="meta">
         <time datetime="{{ race.date | date_to_xmlschema }}">{{ race.date | date: date_format }}</time>
         <div>{{ race.location.description }}</div>

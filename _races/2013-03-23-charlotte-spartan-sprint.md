@@ -2,7 +2,7 @@
 title: 'Charlotte Spartan Sprint'
 description: ''
 distance:
-  description: '4 miles'
+  description: '4 mi'
   miles: 4
 date: 2013-03-23 12:00:00 -0500
 location:

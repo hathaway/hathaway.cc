@@ -2,7 +2,7 @@
 title: 'Tough Mudder Carolinas'
 description: ''
 distance:
-  description: '12 miles'
+  description: '12 mi'
   miles: 12
 date: 2012-10-27 08:30:00 -0500
 location:

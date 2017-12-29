@@ -4,11 +4,11 @@ description: ''
 distance:
   description: '13 mi'
   miles: 13
-date: 2013-11-09 10:00:00 -0500
+date: 2014-10-25 12:00:00 -0500
 location:
   description: 'Winnsboro, NC'
   latitude: 34.4855139
   longitude: -80.9552545
-time: '4:36:49'
-pace: '21:07' # min/mile
+time: '3:46:26'
+pace: '17:17' # min/mile
 ---

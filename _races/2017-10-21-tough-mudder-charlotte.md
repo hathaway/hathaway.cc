@@ -1,12 +1,12 @@
 ---
-title: 'Tough Mudder Charlotte'
+title: 'Tough Mudder Carolinas'
 description: ''
 distance:
   description: '12 mi'
   miles: 12
-date: 2013-11-02 10:00:00 -0500
+date: 2017-10-21 10:00:00 -0500
 location:
   description: 'Mount Pleasant, NC'
-  latitude: 35.4047626
-  longitude: -80.4314864
+  latitude: 35.398255
+  longitude: -80.43479
 ---

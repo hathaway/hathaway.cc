@@ -2,7 +2,7 @@
 title: 'Superhero Scramble Carolinas Intimidator'
 description: ''
 distance:
-  description: '8 miles'
+  description: '8 mi'
   miles: 8
 date: 2013-06-29 12:00:00 -0500
 location:
