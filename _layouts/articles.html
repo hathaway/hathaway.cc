@@ -15,7 +15,7 @@ layout: default
       <div class="meta">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
       </div>
-      <div class="description">
+      <!-- <div class="description">
         <p>{{ post.excerpt }}</p>
       </div>
       {% capture content_words %}
@@ -28,7 +28,7 @@ layout: default
       <div class="extra">
         <p><a class="" href="{{ post.url }}">Read more &hellip;</a></p>
       </div>
-      {% endif %}
+      {% endif %} -->
     </div>
   </div>
   {% endfor %}

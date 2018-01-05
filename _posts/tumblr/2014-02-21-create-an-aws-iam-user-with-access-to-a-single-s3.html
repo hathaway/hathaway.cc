@@ -1,0 +1,26 @@
+---
+layout: post
+title: Create an AWS IAM user with access to a single S3 bucket
+date: '2014-02-21T15:08:36-05:00'
+tags: []
+tumblr_url: http://hathaway.cc/post/77404195550/create-an-aws-iam-user-with-access-to-a-single-s3
+---
+<p>If you need to create an S3 bucket and give access to a single user, here is the custom policy to get that done.</p>
+<p>You add this to a users you have created in IAM by going to the `Permissions` tab for that user and selecting `Attach User Policy`. Choose the `Custom Policy` option and paste the following. </p>
+<p>You will want to customize the &ldquo;my-bucket&rdquo; parts to match the name of your bucket.</p>
+<pre>{
+  "Statement": [
+    {
+      "Action": [
+        "s3:ListAllMyBuckets"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::*"
+    },
+    {
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": ["arn:aws:s3:::my-bucket", "arn:aws:s3:::my-bucket/*"]
+    }
+  ]
+}</pre>

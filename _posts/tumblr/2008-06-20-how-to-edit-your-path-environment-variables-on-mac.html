@@ -1,0 +1,23 @@
+---
+layout: post
+title: How To Edit Your PATH Environment Variables On Mac OS X
+date: '2008-06-20T18:50:00-04:00'
+tags: []
+tumblr_url: http://hathaway.cc/post/69201163472/how-to-edit-your-path-environment-variables-on-mac
+---
+<p>If you are new to Mac OS X, you may need to know how to edit your PATH. The good news is that this is an easy task on Mac OS X.</p>
+<p>The recommended way is by editing your .bash_profile file. This file is read and the commands in it executed by Bash every time you log in to the system. The best part is that this file is specific to your user so you won&rsquo;t affect other users on the same system by changing it.</p>
+<p><strong>Step 1:</strong> Open up a Terminal window (this is in your Applications/Utilites folder by default)</p>
+<p><strong>Step 2:</strong> Enter the follow commands:</p>
+<p><code>touch ~/.bash_profile; open ~/.bash_profile</code></p>
+<p>This will open the .bash_profile file in Text Edit (the default text editor included on your system). The file allows you to customize the environment your user runs in.</p>
+<p><strong>Step 3:</strong> Add the following line to the end of the file adding whatever additional directory you want in your path:</p>
+<p><code>export PATH="$HOME/.rbenv/bin:$PATH"</code></p>
+<p>That example would add ~/.rbenv to the PATH. The $PATH part is important as it appends the existing PATH to preserve it in the new value.</p>
+<p><strong>Step 4:</strong> Save the .bash_profile file and Quit (Command + Q) Text Edit.</p>
+<p><strong>Step 5:</strong> Force the .bash_profile to execute. This loads the values immediately without having to reboot. In your Terminal window, run the following command.</p>
+<p><code>source ~/.bash_profile</code></p>
+<p>That&rsquo;s it! Now you know how to edit the PATH on your Mac OS X computer system. You can confirm the new path by opening a new Terminal windows and running:</p>
+<p><code>echo $PATH</code></p>
+<p>You should now see the values you want in your PATH.</p>
+<p>[Updated 2/10/2012] The instructions now use the .bash_profile method of editing your PATH. This is preferred as it keeps the changes specific to your user. I also updated the instructions to use Text Edit instead of vim so it is easier for a beginner.</p>
