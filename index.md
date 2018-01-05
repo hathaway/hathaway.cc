@@ -1,18 +1,28 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
 
-My name is [Ben Hathaway](about/). I'm an engineer and I build software products. When I'm not working on software, I run OCRs and build things in the real world.
+My name is [Ben Hathaway](/about/). I'm an engineer and I build software products. I currently serve as the Chief Technology Officer of [Mailprotector][mailprotector].
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor turpis in hendrerit sodales. Nulla maximus tincidunt ante, in hendrerit massa condimentum sit amet. Maecenas tincidunt luctus sapien, at convallis urna fermentum at. Cras feugiat pulvinar varius. Suspendisse viverra nunc nisi, eget scelerisque ex placerat sollicitudin. Integer elementum condimentum leo vel ullamcorper. Maecenas ipsum quam, ullamcorper nec nisl vitae, sodales blandit elit. In ornare vestibulum lectus, non congue odio suscipit in.
+I have a wonderful [partner](https://www.instagram.com/kickin_cash/) in life. She makes me better in everything I do and is an incredible mom to our three boys. We currently live in the [Greenville, South Carolina](https://www.instagram.com/visitgreenvillesc/) area but I was born and raised in the [Buckeye State](https://en.wikipedia.org/wiki/Ohio).
 
-Mauris ultricies posuere ipsum at lacinia. Integer vel fermentum lacus, ut semper leo. Integer gravida tellus nec cursus pharetra. Curabitur nec nulla non orci semper fringilla id sit amet neque. Proin scelerisque dictum dignissim. Aliquam volutpat id justo ut sagittis. Fusce tincidunt a est lobortis lacinia. Aliquam pretium, eros vitae aliquam rhoncus, tellus lectus ornare felis, at eleifend eros ipsum sed quam. Praesent consectetur finibus sapien, eget cursus erat tincidunt nec. Nam pretium justo sed nisi condimentum, eu aliquam ante lobortis. Praesent tempus posuere nibh elementum posuere.
+<!-- I've been building software since 2003 when I released my first software product from my dorm room on the campus of the [University of Cincinnati][uc]. That was Product Idea Profitability Evaluator. The name was a mouthful so we called it "PIPE". PIPE used real time bid data feeds from paid search engines to evaluate the online market potential of a product idea.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras id nunc nec velit sollicitudin tincidunt. Suspendisse potenti. Aliquam gravida, mi id lobortis tincidunt, massa nisi pellentesque nibh, vitae dictum justo eros nec risus. Cras euismod a risus nec euismod. Sed ut nibh ut nulla placerat auctor at quis lectus. Vivamus vitae odio tempus, hendrerit velit finibus, eleifend ipsum. Suspendisse sollicitudin urna ex, sed sagittis leo consequat sed. Aliquam eu tempus ipsum. Ut dictum massa id dui rutrum suscipit. Sed vulputate magna eros, id convallis enim aliquet ut. Vivamus tellus quam, venenatis pretium aliquam vel, aliquam pulvinar mi. Quisque dolor leo, varius et lobortis nec, pretium tristique erat. Morbi faucibus, nunc in scelerisque tristique, dolor sem bibendum massa, vitae egestas odio neque quis felis. Proin orci justo, laoreet nec nisl ut, ornare laoreet dui.
+I launched my second company and first [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) product, Mortgage Web Success, in 2004 while I was finishing my Computer Engineering degree. Mortgage Web Success is a fully integrated online marketing system designed specifically for mortgage and loan professionals to give them an online presence that generates new business. Some of its main features include a hosted website, content management system, CRM, secure online loan application, and a marketing automation system.
 
-Curabitur finibus commodo varius. Donec dapibus vehicula tortor, sed rhoncus sapien dictum vitae. Ut nec sollicitudin erat. Donec consequat condimentum dolor vitae malesuada. Morbi vel orci dictum, consectetur arcu ut, aliquet justo. Aenean lobortis quis arcu id euismod. Nunc ac mi a nulla sodales lobortis in id magna. Nam laoreet tempor eros eu condimentum. Suspendisse ut ante quis nunc scelerisque lobortis. Fusce placerat lectus a tortor sagittis finibus. Curabitur dignissim nunc felis, a tincidunt eros rutrum ac.
+In 2008, I invested in and joined [Mailprotector][mailprotector] as the Director of Development. Shortly after that I became the Chief Technology Officer and have enjoyed serving in that role ever since. We've done a lot at Mailprotector over the last 10 years.-->
 
-Praesent vitae lorem nisl. Cras sit amet libero ac felis porttitor placerat. Sed congue maximus elit, nec tincidunt risus sollicitudin sed. Cras pellentesque ligula est, in maximus nunc ultrices sed. Donec elementum risus dolor, at eleifend libero lobortis id. Integer turpis dolor, fringilla consectetur sollicitudin a, tristique ut dolor. Mauris quis purus tellus. Pellentesque suscipit odio tincidunt malesuada eleifend. Proin finibus libero vel maximus malesuada.
+<!-- Read more about that here. -->
+
+{% assign total_distance = 0 %}
+{% for race in site.races %}
+  {% assign total_distance = total_distance | plus: race.distance.miles %}
+{% endfor %}
+
+In addition to building software, I like to stay active. In 2012, when I turned 30, I started running obstacle course races. My first OCR was a [Tough Mudder](https://toughmudder.com) in October of that year and I immediately became hooked. Since then I have run {{ site.races | size }} races totaling {{ total_distance | round }} miles across events like [Spartan Race](https://spartan.com), Tough Mudder, [GORUCK](https://goruck.com) Nasty, Superhero Scramble, and the [Cooper River Bridge Run](http://bridgerun.com/). You can see the [full list here](/races/). My goal is to continue running at least one race every year until my boys are old enough to run them with me. This year my oldest two ran their [first Spartan Race](https://www.instagram.com/p/BbFtUi_nubc/) so they are getting close.
+
+I also enjoy [woodworking](https://photos.app.goo.gl/1cztk2OLWR6e2VUv1), [building](https://photos.app.goo.gl/UVvpXJ19cFppM7513) [cool](https://photos.app.goo.gl/mf4DADvxZrvNMxhK2) [things](https://www.instagram.com/p/lBZwQupNZu), and [skiing](https://photos.app.goo.gl/dwhUuRgH4uhmgFit1).
+
+[uc]: http://ceas.uc.edu
+[mailprotector]: https://mailprotector.com
+[bracket-mp]: https://mailprotector.com/bracket

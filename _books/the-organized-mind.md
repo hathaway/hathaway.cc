@@ -8,4 +8,5 @@ amazon:
 cover:
   isbn: '9780525954187'
 rating: 5
+date: 2018-01-03
 ---

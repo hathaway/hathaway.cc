@@ -6,8 +6,8 @@ layout: default
 
 {{ content }}
 
-<div class="ui divided items books">
-  {% assign books = site.books | sort: 'title' %}
+<div class="ui divided book items">
+  {% assign books = site.books | sort: 'date' | reverse %}
   {% for book in books %}
   {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
   <div class="item">

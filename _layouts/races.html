@@ -6,7 +6,7 @@ layout: default
 
 {{ content }}
 
-<div class="ui divided items">
+<div class="ui divided race items">
   {% assign races = site.races | sort: 'date' | reverse %}
   {% for race in races %}
   {% assign date_format = site.date_format | default: "%b %-d, %Y" %}

@@ -2,7 +2,7 @@
  * Basic styling
  */
 body {
-  // font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -17,13 +17,33 @@ header.main {
   margin-top: 0.5em;
 }
 
-// .ui.text.container, .ui.items > .item > .content > .header {
-//   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-// }
-//
-// .main.menu .ui.text.container, footer.main .ui.text.container, .breadcrumb {
-//   font-family: 'Montserrat', sans-serif;
-// }
+p {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: $base-font-family;
+}
+
+.ui.items > .item > .content > a.header {
+  color: $brand-color;
+}
+
+.ui.secondary.menu a.brand.item:hover {
+  background:none;
+}
+
+h1, .main.menu .ui.text.container,
+footer.main .ui.text.container,
+.breadcrumb,
+.ui.header,
+.ui.race.items > .item > .content > .header,
+.ui.race.items > .item > .content,
+.ui.book.items > .item > .content > .header,
+.ui.book.items > .item > .content,
+.ui.items > .item > .content > .header {
+  font-family: $header-font-family;
+}
 
 body.home {
   main.ui.text.container {
@@ -42,8 +62,18 @@ body.home {
   color: #FFD700;
 }
 
-header.post {
+header.post.header {
   margin: 1.5em 0;
+}
+
+.ui.header .sub.header { padding: 1em 0; }
+
+header.post.header::after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 5px;
+    background: #e1e9f4;
 }
 
 main {
@@ -72,7 +102,7 @@ main {
   }
 }
 .main.menu .item img.brand {
-  margin-right: 1.5em;
+  margin-right: $spacing-unit * 1.5;
 }
 
 .main.secondary.menu.fixed {
@@ -90,8 +120,8 @@ main {
   header.main {
 
     .ui.menu .item {
-      padding-left: 0.5em;
-      padding-right: 0.5em;
+      padding-left: $spacing-unit / 2;
+      padding-right: $spacing-unit / 2;
     }
   }
 
@@ -99,6 +129,10 @@ main {
     margin-right: 0.5em;
     width: 50px;
   }
+}
+
+h1.post.title, h1.page.title {
+  margin: $spacing-unit auto;
 }
 
 // .ui.footer.segment {
@@ -110,9 +144,9 @@ main {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+// h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre,
+// ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
@@ -158,12 +192,12 @@ li {
 
 
 
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
-}
+// /**
+//  * Headings
+//  */
+// h1, h2, h3, h4, h5, h6 {
+//   font-weight: $base-font-weight;
+// }
 
 
 
@@ -172,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $brand-color;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:visited {
     color: darken($brand-color, 15%);
