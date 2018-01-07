@@ -10,7 +10,7 @@ categories: goals
 The key to accomplishing something significant is not in the large success but in the small successes. These small successes are based on the habits that will continually move you towards accomplishing your goal.
 
 Most people think the secret of goals is to simply set a big goal and then everything else will just magically happen. They aim high and then never take the first step because it seems too big. They view accomplishing the goal as one giant step. This is where most goals fizzle out.
-<!--more-->
+
 There is an important piece missing here. It’s not enough to just aim for something. Creating a system is the key.
 
 I think there is a place for both goals and systems. However, they work better together than they do separately. You need to set goals to know where you want to go. But setting goals is not enough. You need to have a system that will get you there. The goal is your destination. The system is your vehicle.
