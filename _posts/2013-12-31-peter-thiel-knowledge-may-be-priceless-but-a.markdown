@@ -6,7 +6,7 @@ tags: []
 tumblr_url: http://hathaway.cc/post/71755612390/peter-thiel-knowledge-may-be-priceless-but-a
 ---
 
-![](/tumblr_files/tumblr_myohh2zfgZ1rumujlo1_1280.png)
+![](/assets/images/tumblr_myohh2zfgZ1rumujlo1_1280.png)
 
 _Peter Thiel:_
 
