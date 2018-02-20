@@ -84,6 +84,10 @@ main {
   border-bottom: 0;
 }
 
+.ui.vertical.segment {
+  border-bottom: none;
+}
+
 .main.secondary.menu {
   background: $background-color;
   border-radius: 0;
