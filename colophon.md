@@ -1,6 +1,7 @@
 ---
 layout: 'page'
 title: Colophon
+permalink: /colophon/
 ---
 
 ## This site is built and hosted using several third party tools and services.
