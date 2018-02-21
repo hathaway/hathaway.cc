@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-coffeescript
 
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 date_format: "%A, %-d %B %Y"
 excerpt_separator: "<!--more-->"
 

@@ -5,4 +5,4 @@ permalink: /bookshelf/
 main_menu: true
 ---
 
-This is a list of books that I've recently read.
+This is a list of books that I've read recently.
