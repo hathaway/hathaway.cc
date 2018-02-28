@@ -7,6 +7,6 @@ amazon:
   isbn: '0761184880'
 cover:
   isbn: '0761184880'
-rating: 5
+rating: 3.5
 date: 2017-01-10
 ---
