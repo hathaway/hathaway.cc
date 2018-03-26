@@ -19,6 +19,10 @@ To view the changes directly on S3 and bypass the CDN cache, go to:
 
 http://hathaway.cc.s3-website.us-east-2.amazonaws.com/
 
+Cache invalidation
+
+`aws cloudfront create-invalidation --distribution-id E2IKQ1AG2RB7OM --paths "/bookshelf/" --profile hathaway`
+
 
 
 Markdown example
