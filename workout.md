@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect_url: https://www.youtube.com/playlist?list=PLp9usAl084nNO2xqUaFc9cYTmzeuKgUv6
+redirect_url: https://www.youtube.com/playlist?list=PL_MONwf4k5oDXedtoTAwAhWDWb0t25QSn
 ---
