@@ -24,7 +24,7 @@ layout: default
           By <a href="https://en.wikipedia.org/wiki/{{ book.author.name | replace: ' ', '_' }}">{{ book.author.name }}</a>
           {% endif %}
         </div>
-        <div class="rating">
+        <!-- <div class="rating">
           {% for r in (1..5) %}
           {% assign r_half = r | plus: -0.5 %}
           {% if r <= book.rating %}
@@ -35,7 +35,7 @@ layout: default
           <i class="fal fa-star"></i>
           {% endif %}
           {% endfor %}
-        </div>
+        </div> -->
       </div>
       <div class="description">
         <p>{{ book.description }}</p>
