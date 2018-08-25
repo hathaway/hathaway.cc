@@ -126,6 +126,9 @@ main {
     .ui.menu .item {
       padding-left: $spacing-unit / 2;
       padding-right: $spacing-unit / 2;
+      margin-left: $spacing-unit / 4;
+      margin-right: $spacing-unit / 4;
+      font-size:14px;
     }
   }
 
@@ -133,6 +136,8 @@ main {
     margin-right: 0.5em;
     width: 50px;
   }
+
+  h1.ui.header { font-size: 1.5em;}
 }
 
 h1.post.title, h1.page.title {

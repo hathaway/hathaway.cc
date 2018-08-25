@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<h1>Projects</h1>
+
+{{ content }}
+
+<div class="ui divided items">
+  {% for project in site.projects %}
+  {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+  <div class="item">
+    <div class="content">
+      <a class="header" href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
+      <!-- <div class="meta">
+        <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: date_format }}</time>
+      </div> -->
+      <div class="description">
+        <p>{{ project.excerpt }}</p>
+      </div>
+      {% capture content_words %}
+        {{ project.content | number_of_words }}
+      {% endcapture %}
+      {% capture excerpt_words %}
+        {{ project.excerpt | number_of_words }}
+      {% endcapture %}
+      {% if excerpt_words != content_words %}
+      <div class="extra">
+        <p><a class="" href="{{ project.url }}">Read more &hellip;</a></p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
