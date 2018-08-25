@@ -14,22 +14,22 @@ Feel free to subscribe in your calendar app with the links below. If you'd like 
 
 This calendar is updated each week with the games for the AP top 25 teams. Since the top 25 changes every week, it only includes games for the upcoming week. This can contain 20+ games so I don't keep this calendar showing all of the time but it is nice to toggle on/off on Saturday's.
 
-[College Football Top 25 Calendar](webcal:://hathaway.cc/calendars/college-football-top-25.ics)
+[College Football Top 25 Calendar](webcal://hathaway.cc/calendars/college-football-top-25.ics)
 
 ### College Football Top 25 Matchups Calendar
 
 This calendar is similar to the Top 25 calendar but only shows games between two top 25 teams. I like to keep this one active on my calendar because these are usually the best games of the week.
 
-[College Football Top 25 Matchups Calendar](webcal:://hathaway.cc/calendars/college-football-top-25-matchups.ics)
+[College Football Top 25 Matchups Calendar](webcal://hathaway.cc/calendars/college-football-top-25-matchups.ics)
 
 ### Notre Dame Football Calendar
 
 
-[Notre Dame Football Calendar](webcal:://hathaway.cc/calendars/notre-dame-football.ics)
+[Notre Dame Football Calendar](webcal://hathaway.cc/calendars/notre-dame-football.ics)
 
 ### Ohio State Football Calendar
 
-[Ohio State Football Calendar](webcal:://hathaway.cc/calendars/ohio-state-football.ics)
+[Ohio State Football Calendar](webcal://hathaway.cc/calendars/ohio-state-football.ics)
 
 ## Screenshots
 
