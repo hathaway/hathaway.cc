@@ -2,7 +2,7 @@
 title: 'Extreme Ownership'
 description: ''
 author:
-  name: 'Jocko Willink '
+  name: 'Jocko Willink'
 amazon:
   isbn: '1250183863'
 cover:
