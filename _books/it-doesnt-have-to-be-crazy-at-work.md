@@ -1,12 +1,12 @@
 ---
-title: 'Remote'
+title: "It Doesn't Have to Be Crazy at Work"
 description: ''
 author:
   name: 'Jason Fried & David Heinemeier Hansson'
 amazon:
-  isbn: '0804137501'
+  isbn: '0008323445'
 cover:
-  isbn: '0804137501'
+  isbn: '0008323445'
 rating: 5
-date: 2013-10-29
+date: 2019-04-15
 ---

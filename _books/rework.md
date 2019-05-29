@@ -2,7 +2,7 @@
 title: 'Rework'
 description: ''
 author:
-  name: 'Jason Fried'
+  name: 'Jason Fried & David Heinemeier Hansson'
 amazon:
   isbn: '0307463745'
 cover:
