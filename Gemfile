@@ -29,4 +29,4 @@ gem 'jekyll-coffeescript'
 
 gem 'jekyll-import'
 
-gem "nokogiri", "~> 1.13.9"
+gem "nokogiri", "~> 1.13.10"
