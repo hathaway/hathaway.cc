@@ -56,7 +56,7 @@ GEM
     mini_portile2 (2.8.1)
     minima (2.1.1)
       jekyll (~> 3.3)
-    nokogiri (1.13.10)
+    nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     pathutil (0.16.2)
@@ -84,7 +84,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-import
   minima (~> 2.0)
-  nokogiri (~> 1.13.10)
+  nokogiri (~> 1.14.3)
   tzinfo-data
 
 BUNDLED WITH
